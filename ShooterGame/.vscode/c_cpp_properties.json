@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "ShooterGameEditor Editor Win64 Development (ShooterGame)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_ShooterGame.json"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}

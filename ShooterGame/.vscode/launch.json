@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch ShooterGame (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "ShooterGame Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ShooterGame (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "ShooterGame Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ShooterGame (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "ShooterGame Win64 Development Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ShooterGame (Test)",
+			"request": "launch",
+			"program": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "ShooterGame Win64 Test Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ShooterGame (Shipping)",
+			"request": "launch",
+			"program": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "ShooterGame Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ShooterGameEditor (Debug)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "ShooterGameEditor Win64 Debug Build",
+			"args": [
+				"C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\ShooterGame.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ShooterGameEditor (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "ShooterGameEditor Win64 DebugGame Build",
+			"args": [
+				"C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\ShooterGame.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ShooterGameEditor (Development)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "ShooterGameEditor Win64 Development Build",
+			"args": [
+				"C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\ShooterGame.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\ShooterGame.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+		}
+	]
+}
