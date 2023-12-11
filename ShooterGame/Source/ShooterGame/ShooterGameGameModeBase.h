@@ -13,5 +13,5 @@ UCLASS()
 class SHOOTERGAME_API AShooterGameGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
 };
