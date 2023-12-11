@@ -3,12 +3,16 @@
         {
             "name": "ShooterGameEditor Editor Win64 Development (ShooterGame)",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_ShooterGame.json"
+            "compileCommands": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_ShooterGame.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
         },
         {
             "name": "Win32",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_Default.json"
+            "compileCommands": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
