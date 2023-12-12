@@ -4,6 +4,7 @@
 #include "ShooterCharacter.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter() : 
@@ -16,13 +17,24 @@ AShooterCharacter::AShooterCharacter() :
 	/** Create a camera boom (pulls in towards the character if there is a collision) */
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 300.f; // The camera follows at this distance behind the character
+	CameraBoom->TargetArmLength = 400.f; // The camera follows at this distance behind the character
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // attach camera to end of boom
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
+
+	// we dont use the controller rotatio to our mesh in game
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+
+	// Configurar character movement fix camera movement rotation
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f); // This rotator determines the rotation rate when orienting to the direction of movement
+	GetCharacterMovement()->JumpZVelocity = 600.f;
+	GetCharacterMovement()->AirControl = 0.2f;
 }
 
 // Called when the game starts or when spawned
@@ -72,6 +84,10 @@ void AShooterCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds()); // deg/sec * sec/frame = deg/frame
 }
 
+void AShooterCharacter::FireWeapon()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Fire Weapon."));
+}
 
 // Called every frame
 void AShooterCharacter::Tick(float DeltaTime)
@@ -99,5 +115,6 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	PlayerInputComponent->BindAction("FireButton", IE_Pressed, this, &AShooterCharacter::FireWeapon);
 }
 
