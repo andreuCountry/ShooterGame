@@ -47,14 +47,11 @@ void UShooterAnimInstance::UpdateAnimationProperties(float DeltaTime)
             MovementRotation,
             AimRotation
         ).Yaw;
-        /*
-        FString OffssetMessage = FString::Printf(TEXT("Movement offset yaw: %f"), MovementOffsetYaw);
 
-        if (GEngine)
+        if (ShooterCharacter->GetVelocity().Size() > 0.f) 
         {
-            GEngine->AddOnScreenDebugMessage(1, 0.f, FColor::White, OffssetMessage);
+            LastMovementOffsetYaw = MovementOffsetYaw;
         }
-        */
     }
 }
 
