@@ -53,5 +53,15 @@
 		"file": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\Source\\ShooterGame\\ShooterGameGameModeBase.h",
 		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_Default\\ShooterGame.211.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\Source\\ShooterGame\\Weapon.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_Default\\ShooterGame.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\Source\\ShooterGame\\Weapon.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ChessyLocarda\\Documents\\Unreal Projects\\ShooterGame\\ShooterGame\\ShooterGame\\.vscode\\compileCommands_Default\\ShooterGame.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	}
 ]
